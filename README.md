@@ -7,19 +7,27 @@ This project involves designing a team of homogeneous agents that cooperate to c
 ### PacPercept
 Each agent receives a PacPercept which has the following methods:
 
-public VisibleAgent[] getVisAgents()
-public VisiblePackage[] getVisPackages()
-public String[] getMessages()
-public boolean feelBump()
-public VisiblePackage getHeldPackage()
+`public VisibleAgent[] getVisAgents()`
+
+`public VisiblePackage[] getVisPackages()`
+
+`public String[] getMessages()`
+
+`public boolean feelBump()`
+
+`public VisiblePackage getHeldPackage()`
 
 ### Actions
 Available actions for each agent are:
 
 Dropoff
+
 Idle
+
 Move
+
 Pickup
+
 Say
 
 ### Simulator Execution
@@ -27,7 +35,7 @@ To get started, you can clone this repository and run the code on your local mac
 
 To start the simulator with n agents defined in a package userid, p packages, and d destinations, type:
 
-java pacworld.PackageWorld kas221 n p d
+`java pacworld.PackageWorld kas221 n p d`
 
 Contributions to this project are welcome. If you have any suggestions or improvements, please submit a pull request.
 
