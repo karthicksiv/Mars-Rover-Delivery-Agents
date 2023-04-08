@@ -1,8 +1,8 @@
-# Mars-Rover-Delivery-Agents
+# Mars Rover Delivery Agents
 
 ## Project Description
 
-This project involves designing a team of homogeneous agents that cooperate to complete a package delivery task. The agents are placed in a 50x50 grid with randomly located packages and delivery locations. The objective is to handle any number of packages, destinations, and team sizes.
+This project involves designing a team of homogeneous agents inspired by Mars rovers that cooperate to complete a package delivery task. The agents are placed in a 50x50 grid with randomly located packages and delivery locations. The objective is to handle any number of packages, destinations, and team sizes.
 
 ### PacPercept
 Each agent receives a PacPercept which has the following methods:
